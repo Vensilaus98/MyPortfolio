@@ -1,0 +1,23 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vensilaus98/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vensilaus98/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/Vensilaus98/MyPortfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}

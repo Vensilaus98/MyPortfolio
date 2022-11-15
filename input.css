@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom Fonts Poppins and Oswald */
+@font-face {
+    font-family: 'Oswald';
+    src: url(/assets/fonts/Oswald/static/Oswald-Bold.ttf);
+}

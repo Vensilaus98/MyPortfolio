@@ -20,6 +20,7 @@ module.exports = {
         primaryDark: "#003459",
         primaryLight: "#003566",
         AccentColor: "#F15BB5",
+        hoverColor: "#F15BB5",
       }
     },
   },

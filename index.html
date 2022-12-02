@@ -7,20 +7,45 @@
     <link rel="stylesheet" href="/dist/output.css">
     <title>My Portfolio</title>
 </head>
-<body>
-    <div class="container-fluid h-screen bg-primaryDark">
+<body class="bg-primaryDark">
+    <div class="container-fluid h-screen">
         <!-- Creating navigation bar -->
         <nav class="relative text-white font-medium bg-primaryDark shadow-md">
             <div class="flex items-center justify-end px-24 py-8">
                 <div class="space-x-6">
-                    <a href="#" class="text-white font-medium hover:text-AccentColor">Home</a>
-                    <a href="#" class="text-white font-medium hover:text-AccentColor">About me</a>
-                    <a href="#" class="text-white font-medium hover:text-AccentColor">Skills & Experience</a>
-                    <a href="#" class="text-white font-medium hover:text-AccentColor">Projects</a>
-                    <a href="#" class="text-white font-medium ring-2 rounded-full ring-AccentColor ring- px-6 py-3 hover:bg-AccentColor hover:ring-white">Contact me</a>
+                    <a href="index.html" class="text-AccentColor font-medium hover:opacity-80">Home</a>
+                    <a href="about-me.html" class="text-white font-medium hover:opacity-80">About me</a>
+                    <a href="skills-experience.html" class="text-white font-medium hover:opacity-80">Skills & Experience</a>
+                    <a href="projects.html" class="text-white font-medium hover:opacity-80">Projects</a>
+                    <a href="contact-me.html" class="text-white font-medium ring-2 rounded-full ring-AccentColor ring- px-6 py-3 hover:bg-AccentColor hover:ring-white">Contact me</a>
                 </div>
             </div>
         </nav>
+
+        <!-- Main Home Content Names And SVG -->
+        <section class="flex flex-row justify-between items-center px-24 h-5/6">
+            <!-- Names Section -->
+            <div class="container space-y-3">
+                <h2 class="text-white text-3xl">Hi my name is,</h2>
+                <h1 class="text-white text-6xl font-medium">Patrick Vensilaus Kimario</h1>
+                
+                <!-- Add Description section -->
+                <div class="space-y-2">
+                    <h1 class="text-AccentColor text-2xl font-medium">A Web, Mobile App Developer</h1>
+                    <h1 class="text-AccentColor text-2xl font-medium">& UI/UX Designer.</h1>
+                </div>
+
+                <!-- Resume Button -->
+                <div class="resume-button py-7">
+                    <a href="#" class="text-white font-medium ring-2 ring-white rounded-full bg-AccentColor px-8 py-3 hover:bg-primaryLight hover:ring-AccentColor">Resume</a>
+                </div>
+            </div>
+
+            <!-- Background SVG -->
+            <div class="image-container">
+                <img src="./assets/images/Landing-Shape.svg" alt="" srcset="">
+            </div>
+        </section>
     </div>
 </body>
 </html>
